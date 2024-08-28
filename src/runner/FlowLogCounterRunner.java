@@ -1,4 +1,4 @@
-package main.java.com.illumio.flowlogparser.runner;
+package runner;
 
 import main.java.com.illumio.flowlogparser.model.FlowLogRecord;
 import main.java.com.illumio.flowlogparser.model.FlowLogRecordV2;
