@@ -1,0 +1,11 @@
+dstPort,protocol,tag
+25,tcp,email
+443,tcp,https
+110,tcp,pop3
+80,tcp,http
+143,tcp,imap
+993,tcp,secure_imap
+587,tcp,smtp
+53,udp,dns
+22,tcp,ssh
+23,tcp,telnet
