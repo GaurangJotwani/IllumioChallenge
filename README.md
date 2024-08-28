@@ -25,6 +25,7 @@ The task is to parse network flow log files, match each record against a lookup 
 - **NetworkLogVersion:** `2`
 
 ## Demo Run:
+![image](https://github.com/user-attachments/assets/7ba16cbd-8b8f-4c66-8ebb-2253ee1b3eb5)
 
 
 ## Key Assumptions
