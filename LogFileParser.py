@@ -74,7 +74,6 @@ def write_output(output_file_path:str, tag_counts: Dict[str, int], port_protocol
         f.write("Port,Protocol,Count\n")
         for (port, protocol), count in port_protocol_counts.items():
             f.write(f"{port},{protocol},{count}\n")
-        
   except Exception as e:
     print(f"An error occurred while write to output file: {e}")
     raise
