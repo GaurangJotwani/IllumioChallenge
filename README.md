@@ -1,4 +1,6 @@
-Hey there! Thanks for checking out my flow log parsing script. This script helps analyze AWS VPC flow logs and maps them with protocol numbers and custom lookup tables. The script processes log data using Python dictionaries to store protocol mappings and lookup tables efficiently. It reads log files in .txt format, protocol mappings from .csv files, and lookup tables from .csv files. It then extracts relevant fields and matches them against preloaded data to generate an output file in .txt format containing Tag Counts and Port/Protocol Combination Counts. I'm open to any changes, improvements, or suggestions you might have! I’d love to hear your thoughts and ways I can make it better.
+Hey there! Thanks for checking out my flow log parsing script. This script helps analyze AWS VPC flow logs and maps them with protocol numbers and custom lookup tables. The script processes log data using Python dictionaries to store protocol mappings and lookup tables efficiently. The program will read the flow logs from flowlogs.txt and the lookup table from lookup.csv. It then extracts relevant fields and matches them against preloaded data to generate an output.txt file containing Tag Counts and Port/Protocol Combination Counts. Alternatively, you can provide command line arguments for custom file paths as required.
+
+I'm open to any changes, improvements, or suggestions you have! I’d love to hear your thoughts and ways to improve it.
 
 ### Assumptions
 
